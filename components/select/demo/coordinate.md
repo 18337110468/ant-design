@@ -33,7 +33,7 @@ const App = () => {
 
   const handleProvinceChange = value => {
     setCities(cityData[value]);
-    setSecondCity(cityData[value][0]);
+    
   };
 
   const onSecondCityChange = value => {
